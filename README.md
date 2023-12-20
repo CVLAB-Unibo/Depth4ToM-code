@@ -16,7 +16,7 @@ University of Bologna
 
 <h2 align="center"> 
 
-[Project Page](https://cvlab-unibo.github.io/Depth4ToM/) | [Paper](https://arxiv.org/abs/2307.15052) | 📂 [Dataset](COMING SOON)
+[Project Page](https://cvlab-unibo.github.io/Depth4ToM/) | [Paper](https://arxiv.org/abs/2307.15052)
 </h2>
 
 
@@ -58,7 +58,7 @@ Inferring the depth of transparent or mirror (ToM) surfaces represents a hard ch
 In our experiments, we employed two datasets featuring transparent or mirror objets: [Trans10K](https://xieenze.github.io/projects/TransLAB/TransLAB.html) and [MSD](https://mhaiyang.github.io/ICCV2019_MirrorNet/index). With our in-painting technique we obtain virtual depth maps to finetune monocular networks. For sake of reproducibility, we make available Trans10K and MSD together with proxy labels used to finetune our models.
 
 ### :arrow_down: Get Your Hands on the Data
-Trans10K and MSD with Virtual Depths. [[Download]]()
+Trans10K and MSD with Virtual Depths. [[Download]](https://1drv.ms/u/s!AgV49D1Z6rmGgZAz2I7tMepfdVrZYQ?e=jbuaJB)
 
 We also employed the Booster Dataset in our experiment. [[Download]](https://cvlab-unibo.github.io/booster-web/)
 
@@ -69,7 +69,7 @@ Here, you can download the weights of **MiDAS** and **DPT** architectures employ
 To use these weights, please follow these steps:
 
 1. Create a folder named `weights` in the project directory.
-2. Download the weights [[Download]]()
+2. Download the weights [[Download]](https://1drv.ms/u/s!AgV49D1Z6rmGgZAyTbFLjjTMdgsE_A?e=1xcf4y)
 3. Copy the downloaded weights into the `weights` folder.
 
 ## :memo: Code
