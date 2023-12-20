@@ -1,11 +1,14 @@
 cd ..
 
+### Change this path ###
+dataset_root="/media/data2/Booster/train/balanced"
+########################
+
+dataset_txt="datasets/booster/train_stereo.txt"
+
 # RESULTS TABLE 2
 for model in "midas_v21" "dpt_large"
 do
-    dataset_root="/media/data2/Booster/train/balanced"
-    dataset_txt="datasets/booster/train_stereo.txt"
-
     ## BASE MODEL ###
     output_dir="results/Base/"$model
     python run.py --model_type $model \
